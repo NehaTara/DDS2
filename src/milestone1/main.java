@@ -35,7 +35,7 @@ public class main {
                     boolean bookmark = bookmarkStr.equalsIgnoreCase("Yes");
 
                     node newNode = new node(pageName, pageId, date, siteUrl, bookmark);
-                    stack.push(newNode);
+                    stack.add(newNode);
                     break;
 
                 case 2:

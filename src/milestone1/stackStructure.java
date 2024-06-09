@@ -7,7 +7,7 @@ public class stackStructure {
         this.top = null;
     }
 
-    public void push(node node) {
+    public void add(node node) {
         node.next = top;
         top = node;
     }
